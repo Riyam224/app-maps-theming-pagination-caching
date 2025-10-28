@@ -28,7 +28,7 @@ class GoogleMapsApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Theming Demo',
       theme: themeProvider.themeData,
-      home: const GoogleMapsPage(),
+      home: const WelcomePage(),
     );
   }
 }
